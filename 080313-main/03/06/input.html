@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input tag</title>
+    <style>
+      /* input 요소 한 줄로 출력 */
+      input{
+        margin-bottom:5px;
+      }
+    </style>
+  </head>
+  <body>
+<form action="#" enctype="multipart/form-data">
+  <input type="text" size="10" maxlength="5" placeholder="한줄 입력" value="10"><br/>
+  <input type="password"><br/>
+  <input type="tel"><br/>
+  <input type="number"><br/>
+  <input type="url"><br/>
+  <input type="search"><br/>
+  <input type="email"><br/>
+  <input type="checkbox" name="hobby" value="1"> 등산
+  <input type="checkbox" name="hobby" value="2"> 러닝
+  <input type="checkbox" name="hobby" value="3"> 여행<br/>
+  <input type="radio" name="gender" value="1"> 남 <input type="radio" name="gender" value="2"> 여 <br/>
+  <input type="file"><br/> <!-- enctype="multipart/form-data"이 있어야만 함 -->
+  <input type="button" value="버튼"><br/>
+  <input type="image" src="facebook.png" alt="페이스북 버튼"><br/>
+  <input type="hidden" name="key" value="10"><br/>
+  <input type="date"><br/>
+  <input type="datetime-local"><br/>
+  <input type="month"><br/>
+  <input type="week"><br/>
+  <input type="time"><br/>
+  <input type="range" min="1" max="10" step="1" value="5"><br/>
+  <input type="color"><br/>
+  <input type="submit" value="전송"><br/>
+  <input type="reset" value="리셋"><br/>
+</form>
+  </body>
+</html>
